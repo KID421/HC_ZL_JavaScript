@@ -32,3 +32,18 @@ else if (score >= 40) {
 else {
     console.log("當掉");
 }
+
+// 陣列：多個相同類型的資料
+var boxes = document.getElementsByClassName("box");
+
+console.log(boxes[1]);
+
+boxes[0].innerHTML = "我是盒子";
+boxes[1].innerHTML = "我是盒子";
+boxes[2].innerHTML = "我是盒子";
+
+// 迴圈 for 語法：
+// for (初始值；條件；每次執行)
+for(var i = 0; i < 10; i++) {
+    console.log("迴圈執行次數：" + i);
+}
